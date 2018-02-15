@@ -6,7 +6,7 @@ export default  class App extends Component {
      constructor(){
         super();
         this.state = {
-            name: 'mayoorika',
+            name: 'mayoori',
             age: 21
         }
         autoBind(this , 'updateName' , 'decrementAge' ,'incrementAge')
